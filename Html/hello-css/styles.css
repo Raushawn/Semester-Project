@@ -1,0 +1,85 @@
+body{
+	/*color: #FF0000 right red*/;
+	color: #FFFFFF;
+	background-color: #0000ad;
+	font-size:18px;
+}
+h1 {
+	/*font-size: 36px*/;
+	font-size: 2em;
+}
+h2{
+	/*font-size: 28px*/;
+	font-size: 1.6em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+}
+ul{
+	list-style-type:circle;
+}
+ol{
+	list-style-type:lower-roman;
+}
+a{
+	text-decoration:none;
+}
+p{
+	text-align: left;
+}
+p:last-of-type{
+	margin-bottom:50px;
+}
+.button{
+	color: #fff;
+	background-color: #8e00ad;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #581845;
+	border-radius: 5px;
+	width: 200px;
+	margin: 20px auto ; /*Vertical horizontal(auto centers with the parent element*/
+}
+.page{
+	width: 600px;
+	margin: 0px auto;
+}
+.call-to-action{
+	font-style: italic;
+	background-color: #de3163;
+}
+.call-to-action:link,.call-to-action:visited{
+	font-style: italic;
+	background-color: #eeb75a;/* yellow */
+}
+	.call-to-action:hover, .call-to-action:visited:hover{
+	background-color: #f5cf8e;/* lighter yellow */
+}
+	.call-to-action:active, .call-to-action:visited:active{
+	background-color: #eeb75a;/* yellow */
+}
+	
+.synopsis em{
+	font-style: normal;
+}
+#button-3{
+	color: #914ED3;
+}
+
+a:link{
+	color:pink;
+	text-decoration:none;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+a:active{
+	color: silver;
+}

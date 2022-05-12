@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = 'UTF-8'/>
+<title>Table Exercise</title>
+</head>
+<body>
+<table border = '4'>
+	<tr>
+		<td colspan = '2'>Items A1, A2</td>
+		<td>Item A3</td>
+	</tr>
+	<tr>
+		<td>Item B1</td>
+		<td>Item B2</td>
+		<td>(this is B3)</td>
+	</tr>
+	<tr>
+		<td>Item C1</td>	
+		<td colspan = '2'><strong>Items C2 and C3</td>
+	</tr>
+	<tr>
+		<td colspan = '3'>The items labelled D1, D2, and D3</td>
+	</tr>
+</table>
+
+<br/>	
+
+	<table border = '4'>
+	<tr>
+		<td>Item A1</td>
+		<td>Item A2</td>
+		<td rowspan = '3'>Items A3, B3, C3</td>
+	</tr>
+	<tr>
+		<td>Item B1</td>
+		<td>Item B2</td>
+	</tr>
+	<tr>
+		<td rowspan = '2'>Items C1 and D1</td>
+		<td>-C2-</td>
+	</tr>
+	<tr>
+		<td>Item D2</td>
+		<td>Item D3</td>
+	</tr>
+</table>	
+
+<br/>
+
+<table border = '4'>
+	<tr>
+		<td rowspan = '2'>Items A1, B1</td>
+		<td colspan = '3'>Items A2, A3</td>
+	</tr>
+	<tr>
+		<td colspan = '3'><strong>Items B2, B3</strong></td>
+	</tr>
+	<tr>
+		<td colspan = '2'><strong>Item C1</strong></td>
+		<td rowspan = '2'>C2, D2</td>
+		<td>*C3*</td>
+	</tr>
+	<tr>
+		<td colspan = '2'>Item number D1</td>
+		<td>Item D3</td>
+	</tr>	
+<br/>
+<table border = '4'>
+	<tr>
+		<td rowspan = '0.5' colspan ='0.5'>A1a1</td>
+		<td rowspan = '0.5' colspan = '0.5'>A1a2</td>
+		<td rowspan = '4' colspan = '4'>A2</td>
+		<td rowspan = '4' colspan = '4'>A3</td>
+	
+	</tr>
+	<tr>
+	<td colspan = '0.5' rowspan = '0.5'>A1b1</td>
+		<td rowspan = '0.5' colspan = '0.5'>A1b2</td>
+	</tr>
+	<tr>
+		<td>B1</td>
+		<td>B2</td>
+		<td>B3</td>
+	</tr>
+	<tr>
+		<td>C1</td>
+		<td colspan = '4'>A1a1 A1a2 A1b1 A1b2</td>
+		<td>C3</td>
+	</tr>	
+</table>		
+</body>
+</html>	
